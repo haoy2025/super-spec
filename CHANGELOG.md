@@ -5,6 +5,22 @@ All notable changes to super-spec will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-04-13
+
+### Added
+
+- 🤖 **真正的交互模式！移除了 `disable-model-invocation`，现在技能可以真正与用户对话了
+- 📦 **自动依赖检查** - 启动时自动检查 superpowers 和 spec-kit 是否已安装
+- 📖 **保姆级引导** - 如果缺少依赖，提供详细的安装步骤指导
+- 💬 **友好的中文交互** - 像贴心助手一样引导用户
+- 🎯 **智能流程引导** - 根据用户输入灵活选择从哪一步开始
+
+### Changed
+
+- 🔄 技能从"展示型"升级为"交互型"
+- 📝 更新了版本号到 2.0.0
+- ✨ 让 super-spec 真正"傻瓜化"了！
+
 ## [1.1.0] - 2026-04-13
 
 ### Changed
